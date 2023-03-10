@@ -10,3 +10,4 @@ sudo ln -fs /data/web_static/releases/test/ /data/web_static/surrent
 sudo chown -R ubuntu:ubuntu /data/
 sudo sed -i \"35i $STATIC" $SRC
 sudo service nginx restart
+exit 0
